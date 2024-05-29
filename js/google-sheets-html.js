@@ -142,7 +142,7 @@ $('#conDivUser1').append('<div class="colThree"><div class="imgClass1"><a href="
 
     $('#conDivTalent3').append('<div class="colThree"><div class="imgClass3"><a href="http://www.kktv1.com/m/?roomid='+id+'"><img src="../common/img/kk_head_avatar_men.png" id="u_img_'+id+'" alt="" class="imgClass"></a></div><div class="centerDiv"><img src="img/coin.png" class="imgsmal">'+name+'<br>ID-'+id+'</div><div class="lastDiv"><span class="dancing">'+times+'</span></div></div>');
       }
- else  if(counter>7 && counter<=9){
+ else  if(counter>=9 && counter<=9){
 
     $('#conDivTalent4').append('<div class="colThree1"><div><a href="http://www.kktv1.com/m/?roomid='+id+'"><img src="../common/img/kk_head_avatar_men.png" id="u_img_'+id+'" alt="" class="imgClass4"></a></div><div class="centerDiv"><img src="img/coin.png" class="imgsmal">'+name+'<br>ID-'+id+'</div><div class="lastDiv"><span class="dancing">'+times+'</span></div></div>');
       }
